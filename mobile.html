@@ -1,226 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title></title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-   /* Стили для мобильных устройств (ширина экрана до 768px) */
-@media only screen and (max-width: 768px) {
-    * {
-  box-sizing: border-box;
-}
-body{
-  font-family: Georgia, 'Times New Roman', serif;
-  
-}
-header {
-    background-color: #ffffff ;
-  text-align: center;
-  font-size: 20px;
-  color: white;
-}
-
-nav {
-  float: right;
-  width: 15%;
-  background: #ffffff;
-  padding-right: 10px;
-  height: 1800px;
-  color: rgb(16, 8, 44);
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>  
    
-}
-article {
-  float: left;
-  
-  width: 85%;
-  height: 1400px;
-  background-color: #979797 ;
-  
-}
-
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media (max-width: 700px) {
-   
-    article, nav {
-    width: 100%;
-    height: auto;
-  }
-  
-  .hee {
-            width: 70%;
-            padding: 1px;  
-        }
-        .text-block {
-    font-size: 20px; 
-}
-
-}
 
 
-@media only screen and (max-width: 390px) {
-    
-    nav{
-      font-size: 25px;
+      
+        /* Стили для мобильных устройств (ширина экрана до 768px) */
+@media only screen and (max-width: 768px) { .text-block {
+        width: 240px; /* Ширина блока равная ширине картинки */
+        margin-top: 350px;
+        margin-left: 39px ; /* Отступы сверху и снизу */
+        border-color: white;
     }
     
-    .lv {
-          display: none;
+    .text-block2 {
+        width: 240px; /* Ширина блока равная ширине картинки */
+        margin-top: -215px;
+        margin-left: 330px ; 
+        border-color: white;/* Отступы сверху и снизу */
+    }
+    .text-block3 {
+        width: 240px; /* Ширина блока равная ширине картинки */
+        margin-top: -213px;
+        margin-left: 615px ;
+        border-color: white; /* Отступы сверху и снизу */
+    }
+    .text-block4 {
+        width: 240px; /* Ширина блока равная ширине картинки */
+        margin-top: -213px;
+        margin-left: 900px ;
+        border-color: white; /* Отступы сверху и снизу */
+    }
+        body {
+            text-align: center;
         }
-        .text-block {
-    font-size: 12px; 
-}    
-}  
-h3{
-    color:#000000;
-    background-color: #979797;
-}
-h4{
-    color:#1f244b;
-}
-.container {
-    position: relative;   
-    font-size: 22px; 
-}
 
-.text-block {
-    position:absolute;
-    bottom: 10px;
-    width:100%;
-    background-color: rgba(233, 236, 233, 0.625);
-    color: rgb(9, 0, 0);
-    padding: 1px 10px;
-    text-align: left;
-    font-size: 35px
-    
-}
-
-ul {list-style: none;}
-        li::before {
-            content: "🎮"; 
-            padding-right: px; 
-            color: rgb(19, 19, 19); 
+        .p {
+            margin-top: -9px; 
+            /* Поднимаем текст на 20 пикселей */
+            /* Или можно использовать margin-bottom: -20px; для опускания текста */
         }
-.img { 
-    height: 210px;
-    width: 50%;
-    padding: 5px;
-}  
-.news {
+
+        .header {
+            margin-top: 5px;
+        }
+
+        nav {
             display: flex;
-            flex-wrap: wrap;
-            
+            justify-content: center;
+            background: hsl(115, 58%, 44%);
+            padding: 2.5px;
+            color: rgb(255, 255, 255);
         }
-        .n1 {
-            width: 90%;
-            padding: 1px;  
-          
+
+        nav a { 
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-family: gabriol, serif;
         }
-        
-        .news-thumbnail {
-            width: 400px;
-            height: 310px;
-            
-            float: left;
-            padding-right: 20px;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
         }
-        .n2{
-            color: rgb(0, 0, 0);
-            font-size: 15px;
+
+        li {
+            margin: 0 10px; /* Добавляет отступы между пунктами меню */
         }
-        .read-more{
-            width: 100%;
-            background-color: #130c2a;
-            color:white;
-            padding: 2px;
-            font-size: 19px;
+        .moved-image5 {
+            width: 250px; 
+            height: 180px;
+            position: absolute;
+            left: 900px; /* Сдвигаем изображение влево */
+            top: 800px; /* Сдвигаем изображение наверх */}
+
+        .moved-image4 {
+            width: 245px; 
+            height: 180px;
+            position: absolute;
+            left: 620px; /* Сдвигаем изображение влево */
+            top: 800px; /* Сдвигаем изображение наверх */
         }
-.read{
-    color: rgb(77, 77, 77);
-    padding: 2px;
-    font-size: 17px;
-    position: absolute;
-    top: 10px; 
-    right: 10px;
-         
-         
-        
-}
-}
+        .moved-image3 {
+            width: 250px; 
+            height: 180px;
+            position: absolute;
+            left: 330px; /* Сдвигаем изображение влево */
+            top: 800px; /* Сдвигаем изображение наверх */
+        }
+        .moved-image2 {
+            width: 250px; 
+            height: 180px;
+            position: absolute;
+            left: 40px; /* Сдвигаем изображение влево */
+            top: 800px; /* Сдвигаем изображение наверх */
+        }
 
+        .image {
+            width: 700px; 
+            height: 700px; 
+        }
+H5{ font-size: 25px; /* Изменение размера текста заголовка */
+            margin-top: -20px; /* Поднимаем заголовок на 50 пикселей */
+            margin-left: -1300px; }
 
-</style>
-</head>
-<body>
-    <nav>
-        <h3>NAV</h3>
-        <ul>
-          <li><a href="#1">something</a></li>
-          <li><a href="#2">something</a></li>
-          <li><a href="#3">something</a></li>
-          <li><a href="#4">something</a></li> 
-        </ul>
-    </nav>
+        .moved-image {
+            transform: translate(-378px, 20px);
+            width: 700px; 
+            height: 500px; 
+        }
+        .moved-image6 {
+            transform: translate(-130px, 400px);
+            width: 1100px; 
+            height: 280px; 
+        }
 
-    <h3 id="1">SOMETHING</h3>
-    <p class="n2"> on Tue APR 28, 2024 - 0:28</p>
+        h1 {
+            font-size: 26px; /* Изменение размера текста заголовка */
+            margin-top: -360px; /* Поднимаем заголовок на 50 пикселей */
+            margin-left: 760px; /* Добавляем отступ слева для сдвига текста вправо */
+        }
+            h3 {
+            font-size: 15px; /* Изменение размера текста заголовка */
+            margin-top: 420px; /* Поднимаем заголовок на 50 пикселей */
+            margin-left: -1080px; /* Добавляем отступ слева для сдвига текста вправо */
+        }
 
-<header class="container">
-    <img class="img"   src="123.jpg" alt="pic">
-    <div class="text-block">
+       
 
-        <h4>SOMETHING </h4>
-        <p>
-            <a href="" class="read">READ MORE</a>
-        </p>
-        
-    </div>
+        p {
+            display: block; 
+            margin-left: 800px;   
+            margin-top: 90px; 
+            font-size: 25px;
+        }
+        p1 {
+            font-size: 15px; /* Изменение размера текста заголовка */
+            margin-top: 420px; /* Поднимаем заголовок на 50 пикселей */
+            margin-left: -1300px; 
+        }
+        p2
+ {
+            font-size: 15px; /* Изменение размера текста заголовка */
+            margin-top: 420px; /* Поднимаем заголовок на 50 пикселей */
+            margin-left: -1300px; 
+        }
+        div {
+            padding: 70px;
+            border: 1px solid rgb(140, 112, 112);
+        }
 
-</header>
-
-  
-  
-<article class="news">
+        * {
+            box-sizing: border-box;
+        }
     
-    <section class="n1">
-        <h3 id="1">SOMETHING</h3>
-        <p class="n2"> on Tue APR 28, 2024 - 0:28</p>
-        <img class="news-thumbnail" src="123.jpg" alt="pic" >
-        
-        <p class="hee">SOMETHING</p>    
-    </section>
-    <a href="" class="read-more">READ MORE</a>
-    <p>
-        <p>
+}
+    
+   
+    </style>
+</head>
 
-    <section class="n1">
-        <h3 id="2">SOMETHING</h3>
-        <p class="n2"> on Tue APR 29, 2024 - 0:28 </p>
-        <img src="123.jpg" alt="pic" class="news-thumbnail">
-        
-        <p class="hide">SOMETHING</p>
-    </section>
-    <a href="" class="read-more">READ MORE</a>
-
-    <section class="n1">
-        <h3 id="3">SOMETHING</h3>
-        <p class="news-meta"> on Tue APR 30, 2024 - 0:28 </p>
-        <img src="123.jpg" alt="pic" class="news-thumbnail">
-        
-        <p class="lv">SOMETHING</p>
-    </section>
-    <a href="#" class="read-more">READ MORE</a>
+<body>
+    <img id="img2" src="1234.jpg" width="220" height="90">
+    <nav> 
+        <ul>
+          <li><a href="#1">HOME</a></li>
+          <li><a href="#2">SERVICES</a></li>
+          <li><a href="#3">NEWS</a></li>
+          <li><a href="#4">ABOUT</a></li>
+          <li><a href="#5">CONTACT</a></li>
+          <li><a href="#6">BLOCK</a></li>
+          <li><a href="#7">TYPOGRAPHY</a></li>
+        </ul>
+      </nav>
+  
+      <img src="234.jpg" alt="Your Image" class="moved-image">
       
   
-    
-</article>
+      <h1>MAURIS SODALES PLACERAT MASSA</h1>
+      <p>Suspendisse in dui velit, vel fermentum eros.<br>
+         Nullam blandit ipsum sed sem ullamcorper ac<br>  
+         fermentum urna ullamcorper. Nunc pellentesque<br>  
+         tristique sollicitudin. Vestibulum ante ipsum primis<br>  
+         in faucibus orci luctus et ultrices posuere cubilia<br>  
+         Curae; Aenean eu vehicula risus.</p>
+         
+         <H5>NEWS</H5>
+         
+      <img src="123.jpeg" width="270" height="200" class="moved-image2">
+      <div class="text-block">Vestibulum sed ipsum primis in faucibus orci</div>
 
 
+  
+     
+      <img src="567.jpg" width="270" height="200" class="moved-image3">
+      <div class="text-block2">Vestibulum sed ipsum primis in faucibus orci</div>
 
 
-</body>
-</html>
+      <img src="890.jpg" width="270" height="200" class="moved-image4">
+      <div class="text-block3">Vestibulum sed ipsum primis in faucibus orci</div>
+
+
+      <img src="678.jpg" width="270" height="200" class="moved-image5">
+      <div class="text-block4">Vestibulum sed ipsum primis in faucibus orci</div>
+
+
+  
+      
+  </body>
+  
